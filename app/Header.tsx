@@ -14,7 +14,7 @@ export default function Header({}: Props) {
         <Link href="/" prefetch={false}>
           <h1 className="font-serif text-4xl text-center">
             The &nbsp;
-             <span className="underline decoration-6 decoration-blue-400">
+            <span className="underline decoration-6 decoration-blue-400">
               news
             </span>
           </h1>
@@ -27,11 +27,9 @@ export default function Header({}: Props) {
         </div>
       </div>
 
-      {/* <NaviLinks/> */}
       <NavLinks />
 
-      {/* <SearchBox/> */}
-      <SearchBox/>
+      <SearchBox />
     </header>
   );
 }
